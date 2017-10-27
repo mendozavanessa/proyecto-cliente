@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+header{
+  background-color: yellow;
+  padding: 10px;
+}
+
+li{
+  margin-right: 20px;
+  display: inline-block;
+  list-style: none;
+  margin-right: 50px;
+  text-transform: uppercase;
+  color: green;
+}
+ul{
+  text-align: center;
+}
+.logo{
+  outline: 5px solid aqua;
+  color: blue;
+  font-size: 20px;
+}
+img{
+  display: inline-block;
+  width: 55px;
+  vertical-align: middle;
+  position: relative;
+  left: 50%;
+
+}
+
+.conteiner{
+  background-image: url(../assets/images/mariscos.jpg);
+  width: 1200px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-size: cover;
+  background-position: center;
+}
+footer {
+padding-left: 15px;
+}
+span{
+  margin-left: 200px;
+  margin-right: 50px;
+}
