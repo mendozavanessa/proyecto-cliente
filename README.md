@@ -1,7 +1,7 @@
 
-## LA CANCHA
+## LA PREFERIDA
 
-### La Cancha
+### La Preferida
 Contiene la Replica de la  imagen poniendo en práctica conocimientos de positioning
 
 #### Objetivo Funcional
