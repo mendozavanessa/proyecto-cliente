@@ -1,52 +1,373 @@
-*{
+* {
+  margin: 0px;
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
 }
+
 header{
-  background-color: yellow;
-  padding: 10px;
+  width: 100%;
+  padding: 0;
+  /* background-color:Transparent; */
+  background: rgba(12, 0, 0, 0.3); /*fondo negro y opacidad*/
+  position: absolute;
+  z-index: 1000;
 }
 
-li{
-  margin-right: 20px;
+.sub-menu {
   display: inline-block;
   list-style: none;
   margin-right: 50px;
   text-transform: uppercase;
-  color: green;
+ 
+  font-weight: 700; 
+  vertical-align: middle;
 }
-ul{
+
+.menu-letters {
+  color: white;
+  
+}
+
+.menu {
   text-align: center;
 }
-.logo{
-  outline: 5px solid aqua;
-  color: blue;
-  font-size: 20px;
+
+.sub-menu .logo{
+  width: 200px;
 }
-img{
-  display: inline-block;
-  width: 55px;
-  vertical-align: middle;
+
+/*.flexslider {
+width: 100%;
+height: 477px;
+margin-right: auto;
+margin-left: auto;
+background-size: cover;
+background-position: center;
+}*/
+
+
+/* Segunda sección */
+
+.segunda-seccion {
+  height: 340px;
+  width: 100%;
   position: relative;
-  left: 50%;
-
 }
 
-.conteiner{
-  background-image: url(../assets/images/mariscos.jpg);
-  width: 1200px;
+.container2 {
+
+  position: absolute;
+  display: inline-block;
+  /* margin: 10px auto; (centrar) */
+  text-align: left;
+  width: 30%;
+  height: 330px;
+  margin-left: 20px;
+  
+}
+
+.container2 h1{
+  margin-top: 60px;
+}
+
+.container2 p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/* .container2b { /*Video*/
+  /* outline: 1px solid greenyellow; */
+  /* margin: 10px auto; (centrar) */
+  /* text-align: center;
+  width: 50%; */
+  /* margin-bottom: 40px auto; */
+  /* display: inline; */
+
+ /* } */
+
+
+
+.video {
+  
+  outline: 1px solid orange;
+  position: relative;
+  left: 32%;
+  /* margin: 10px auto; */
+ 
+}
+
+.twitter {
+  outline: 1px solid palevioletred;
+  width: 30%;
+  height: 310px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+    
+}
+/* Segunda sección */
+
+/* .container3 {
+  outline: 1px solid blue;
+  width: 100%;
   height: 600px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
   background-size: cover;
   background-position: center;
+  padding: 20px;
+} */
+
+
+
+/* .container3 p {
+  text-align: center;
+  font-size: 30px;
+  color: pink;
+  margin-bottom: 20px;
+} */
+
+.container4 {
+  padding: 0;
+  margin: 0;
+  background-image: url(../assets/images/fondo-menu.jpg);
+  width: 100%;
+  height: 700px;
 }
+
+.container-menu {
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  margin: auto;
+  margin-top: 0;
+  perspective: 1500px;
+}
+
+.pagina-izquierda, .pagina-central, .pagina-derecha{
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.pagina-izquierda{
+background: #ffffff;
+background: -moz-linear-gradient(left, #ffffff 0%, #fcfcfc 0%, #ededed 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #ffffff), color-stop(0%, #fcfcfc), color-stop(100%, #ededed));
+background: -webkit-linear-gradient(left, #ffffff 0%, #fcfcfc 0%, #ededed 100%);
+background: -o-linear-gradient(left, #ffffff 0%, #fcfcfc 0%, #ededed 100%);
+background: -ms-linear-gradient(left, #ffffff 0%, #fcfcfc 0%, #ededed 100%);
+background: linear-gradient(to right, #ffffff 0%, #fcfcfc 0%, #ededed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+.pagina-central{
+background: #fcfcfc;
+background: -moz-linear-gradient(left, #fcfcfc 0%, #ffffff 28%, #ededed 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(28%, #ffffff), color-stop(100%, #ededed));
+background: -webkit-linear-gradient(left, #fcfcfc 0%, #ffffff 28%, #ededed 100%);
+background: -o-linear-gradient(left, #fcfcfc 0%, #ffffff 28%, #ededed 100%);
+background: -ms-linear-gradient(left, #fcfcfc 0%, #ffffff 28%, #ededed 100%);
+background: linear-gradient(to right, #fcfcfc 0%, #ffffff 28%, #ededed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed', GradientType=1 );
+}
+
+.contenedor-lista{
+  width: 100%;
+  height: 100%;
+}
+
+.lista-uno, .lista-dos, .lista-tres{
+  width: 100%;
+  text-align: center;
+}
+
+.lista-uno h1, .lista-dos h1, .lista-tres h1{
+  font-size: 24px;
+  text-align: center;
+}
+
+.lista-uno img, .lista-dos img, .lista-tres img{
+  width: 200px;
+  height: 150px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.lista-uno hr, .lista-dos hr, .lista-tres hr{
+  width: 200px;
+  height: 3px;
+  margin: auto;
+  border-style: none;
+  background: -webkit-linear-gradient(left, red, blue, #23cbff )
+}
+
+/*.delante{
+  display: none;
+
+}*/
+/****aplicando efectos de movimiento*****/
+
+.pagina-izquierda{
+    transform: rotateY(180deg);
+    transition: all 1s;
+    transform-origin: right;
+    transform-style: preserve-3d;
+    z-index: 10;
+}
+
+.pagina-izquierda2{
+    transform: rotateY(0deg);
+}
+
+.lado{
+    backface-visibility: hidden;
+}
+
+.delante{
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.delante img{
+    width: 250px;
+    margin: auto;
+    margin-top: 24px;
+    outline: 2px solid red;
+}
+
+.delante h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+.delante hr{
+    width: 200px;
+    height: 3px;
+    border-style: none;
+    margin: auto;
+    background: -webkit-linear-gradient(left, #f4e48a, #212120, #fa4632);
+    margin-top: 10px;
+}
+
+.delante button{
+    width: 200px;
+    padding: 6px;
+    background: orange;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.delante button:hover{
+    transform: translateY(10px);
+}
+
+.pagina-derecha{
+    transform: rotateY(-180deg);
+    transform-origin: left;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.pagina-derecha2{
+    transform: rotateY(0deg);
+}
+
+.lado-pagina-derecha{
+    backface-visibility: hidden;
+}
+
+.pagina-derecha-atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    border: 6px double #3f3f3f;
+    border-right: none;
+}
+
+.btn-cerrar{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    filter: blur(1px);
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.btn-cerrar:hover{
+    filter: blur(0px);
+}
+/************************************************/
+.container5{
+  background-image: url(../assets/images/playa.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.container5 P{
+  margin-left: 33%;
+  margin-top: 20px;
+
+}
+
+.title{
+  font-size: 40px;
+  font-family: serif;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 7%;
+}
+
+input[type="text"], input[type="email"], select[name="asunto"]{
+  width: 40%;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 1em;
+  height: 40px;
+}
+textarea[name="mensaje"]{
+  width: 40%;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 1em;
+}
+
 footer {
 padding-left: 15px;
 }
-span{
-  margin-left: 200px;
-  margin-right: 50px;
+/*********************************************************menu carta********************************************************/
+/*section .container4{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
 }
+.conteiner-menu{
+  width: 1000px;
+  height: 550px;
+  background: yellow;
+  padding: 5px;
+}*/

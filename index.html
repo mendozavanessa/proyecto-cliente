@@ -1,31 +1,186 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>La Preferida</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
+    <head>
+      <meta charset="utf-8">
+      <title>La Preferida</title>
+  
+      <link rel="stylesheet" href="flexslider.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+      <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <!-- Creando el menú -->
+
     <header>
       <nav>
-        <ul>
-          <li>home</li>
-          <li>restaurant</li>
-          <li class="logo">la preferida</li>
-          <li>drinks</li>
-          <li>eventos</li>
+          <ul id="menu" class="menu">
+          <li class="sub-menu"><span class="menu-letters">home</span></li>
+          <li class="sub-menu"><span class="menu-letters">restaurant</span></li>
+          <li class="sub-menu">
+          <img class="logo" src="assets/images/logo-lapreferida.png" alt="">
+          <li class="sub-menu"><span class="menu-letters">drinks</span></li>
+          <li class="sub-menu"><span class="menu-letters">eventos</span></li>
         </ul>
       </nav>
     </header>
+
+    <!-- Creando el slider de imágenes -->
+
     <section>
-      <div class="conteiner">
-        <img src="" alt="">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="assets/images/1.jpg" alt="">
+          </li>
+          <li>
+            <img src="assets/images/2.jpg" alt="">
+          </li>
+          <li>
+            <img src="assets/images/3.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+
+
+    </section>
+    <section class="segunda-seccion">
+
+      <div class="container2">
+        <br>
+        <h1>Nuestra sazón es nuestra marca personal</h1>
+        <br>
+        <p>Una gran familia que sigue creciendo para ofrecer a nuestros comensales una extraordinaria gama de experiencias y sabores.</p>
+      </div>
+
+      <div class="container2b">
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NMTA6JoU_D8" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="twitter">
+          
+      </div>
+
+    </section>
+
+   
+    <section class="container4">
+
+      <div class="container-menu">
+
+        <div class="pagina-izquierda">
+
+          <div class="delante lado">
+            
+            <img src="assets\img\logo.png" alt="">
+            <h1>gurmet</h1>
+            <hr>
+            <button class="button-view-menu">Ver Menu</button>
+            <h2>restaurant</h2>
+            <p>correo electronico</p>
+            <h3>telefono</h3>
+          </div>
+
+          <div class="atras lado">
+            <div class="container-lista">
+              <div class="lista-uno">
+                <h1>nombre del plato</h1>
+                <img src="assets/img/plato1.png" alt="">
+                <hr>
+              </div>
+
+              <div class="lista-dos">
+                <h1>nombre del plato</h1>
+                <img src="assets/img/plato2.png" alt="">
+                <hr>
+              </div>
+              <div class="lista-tres">
+                <h1>nombre del plato</h1>
+                <img src="assets/img/plato3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!--fin pagina izquierda-->
+        <div class="pagina-central">
+          <div class="container-lista">
+            <div class="lista-uno">
+              <h1>nombre del plato</h1>
+              <img src="assets/img/bg2.png" alt="">
+              <hr>
+            </div>
+            <div class="lista-dos">
+              <h1>nombre del plato</h1>
+              <img src="assets/img/bg1.png" alt="">
+              <hr>
+            </div>
+            <div class="lista-tres">
+              <h1>nombre del plato</h1>
+              <img src="assets/img/bg5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="pagina-derecha">
+          <div class="container-lista lado-pagina-derecha">
+            <div class="lista-uno">
+              <h1>nombre del plato</h1>
+              <img src="assets/img/bg1.png" alt="">
+              <hr>
+            </div>
+            <div class="lista-dos">
+              <h1>nombre del plato</h1>
+              <img src="assets/img/bg3.jpg" alt="">
+              <hr>
+            </div>
+            <div class="lista-tres">
+              <h1>nombre del plato</h1>
+              <img src="assets/img/bg4.jpg" alt="">
+            </div>
+          </div>
+          <div class="pagina-derecha-atras lado-pagina-derecha"></div>
+          <div class="btn-cerrar lado-pagina-derecha">X</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container5">
+        <p class="title">contactanos</p>
+        <p>
+          <input type="text" name="nombres" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Nombres">
+        </p>
+        <p>
+          <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Correo Electrónico">
+        </p>
+        <p>
+          <input type="text" name="distrito" value="" size="40" aria-invalid="false" placeholder="Distrito">
+        </p>
+        <p>
+          <select name="asunto" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="Elija el asunto">Elija el asunto</option><option value="Comentarios o sugerencias">Comentarios o sugerencias</option><option value="Fiestas infantiles">Fiestas infantiles</option><option value="Catering">Catering</option><option value="Vales de consumo y certificados de regalo">Vales de consumo y certificados de regalo</option></select>
+        </p>
+        <p>
+          <textarea name="mensaje" cols="40" rows="10" aria-required="true" aria-invalid="false" placeholder="Su mensaje"></textarea>
+        </p>
       </div>
     </section>
     <footer>
       <span>contactanos : 987389940</span>
       <span>direccion : av.benavides 1180 Miraflores</span>
     </footer>
-  </body>
+
+   <!-- javascript library third party -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+
+  <!-- own library -->
+    <script src="js/app.js"></script>
+
+   <script type="text/javascript" charset="utf-8">
+     $(document).ready(function() {
+      $('.flexslider').flexslider({
+        touch: true,
+        pauseOnAction: false,
+        pauseOnHover: false,
+        animation: "slide"
+        });
+      });
+    </script>
+</body>
 </html>
