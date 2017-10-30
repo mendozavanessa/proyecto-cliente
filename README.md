@@ -1,25 +1,54 @@
+
+## LA CANCHA
+
+### La Cancha
+Contiene la Replica de la  imagen poniendo en prÃ¡ctica conocimientos de positioning
+
+#### Objetivo Funcional
+Muestre la imagen del la cancha
+
+#### Objetivo Tecnico
+Poner en practica los temas revisados en clase de laboratoria(positioning)
+
+#### Herramientas
+
++ Editor Atom
+   + html
+   + css
+   
++ Markdown(README)
+
++ Photoshop
+
+![Texto alternativo](https://github.com/Laboratoria/codeChallenge1/blob/master/Pasted%20image%20at%202017_10_27%2011_23%20AM.png?raw=true)
+
+
+
+
+
+
 ## LA PREFERIDA
 
-### ¿Porqué eligieron este diseño? ¿En qué es mejor que los otros?
+### ï¿½Porquï¿½ eligieron este diseï¿½o? ï¿½En quï¿½ es mejor que los otros?
 
-Elegimos este diseño, respetando los gustos del cliente y sus necesidades. Es mejor a los otros ya que es puntual, se enfoca a los pedidos del cliente. 
+Elegimos este diseï¿½o, respetando los gustos del cliente y sus necesidades. Es mejor a los otros ya que es puntual, se enfoca a los pedidos del cliente. 
 
-### ¿Qué funcionó bien hoy?
+### ï¿½Quï¿½ funcionï¿½ bien hoy?
 
-La comunicación y el hecho de que nos apoyamos mutuamente. 
+La comunicaciï¿½n y el hecho de que nos apoyamos mutuamente. 
 
-### ¿Qué cosa no tan bien?
+### ï¿½Quï¿½ cosa no tan bien?
 
-Las ideas de como hacer el código en un principio fueron diferentes y debido al poco tiempo era dificil de adaptarse. 
+Las ideas de como hacer el cï¿½digo en un principio fueron diferentes y debido al poco tiempo era dificil de adaptarse. 
 
-### ¿Fueron sus estimaciones de tiempos acertadas?
+### ï¿½Fueron sus estimaciones de tiempos acertadas?
 
-Sí, era el tiempo que pensamos lograr con respecto a lo presentado.
+Sï¿½, era el tiempo que pensamos lograr con respecto a lo presentado.
 
-### ¿Dividieron las tareas lo suficiente para estimar bien cuánto tomaría los hitos?
+### ï¿½Dividieron las tareas lo suficiente para estimar bien cuï¿½nto tomarï¿½a los hitos?
 
-No tan bien, nos falto aplicar más el github colaborativo. 
+No tan bien, nos falto aplicar mï¿½s el github colaborativo. 
 
-### ¿Aprendieron algo más al hacer este ejercicio?
+### ï¿½Aprendieron algo mï¿½s al hacer este ejercicio?
 
-Sí, aprendimos a conocer los pedidos del cliente, a entrevistarlo prácticamente sobre que es lo que desea para su web. Trabajo en equipo bajo presión.
+Sï¿½, aprendimos a conocer los pedidos del cliente, a entrevistarlo prï¿½cticamente sobre que es lo que desea para su web. Trabajo en equipo bajo presiï¿½n.
